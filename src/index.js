@@ -5,8 +5,13 @@ import Avatar from './Avatar';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+	<div>
+	<h1><center> WELOME TO 8NKIT INC.</center></h1>
+	<div><center><Avatar id="1" name="Ankit Sharma" work="Developer" site="https://joeschmoe.io/api/v1/8"/>
+		<Avatar id="2" name="Akash Sharma" work="Tester" site="https://joeschmoe.io/api/v1/jon"/>
+		<Avatar id="4" name="Sajal Bansal" work="Backend" site="https://joeschmoe.io/api/v1/shrre"/></center></div></div>
+	, document.getElementById('root')
 	
-
 );
 
 // If you want your app to work offline and load faster, you can change
